@@ -114,7 +114,6 @@ Requests that exceed the queue depth are rejected with `HTTP 429`.
 │   └── queue.js      # Request queue (p-queue)
 ├── Client/
 │   └── test.js       # Example client script
-├── API_doc.md        # Full API reference
 └── package.json
 ```
 
