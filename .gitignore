@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Local API documentation (contains sensitive info)
+API_doc.md
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test images / uploads
+Client/sample.jpg
+src/sample.jpg
+uploads/

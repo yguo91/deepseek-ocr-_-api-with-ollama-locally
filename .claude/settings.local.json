@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell -command:*)",
+      "Bash(node -e:*)",
+      "Bash(curl -s http://localhost:11434/api/show -d '{\"\"\"\"name\"\"\"\":\"\"\"\"deepseek-ocr:latest\"\"\"\"}')",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(d.get\\(''''modelinfo'''', d.get\\(''''details'''',''''''''\\)\\)\\)\")",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d.get\\(''''modelfile'''',''''''''\\), indent=2\\)\\)\")"
+    ]
+  }
+}
